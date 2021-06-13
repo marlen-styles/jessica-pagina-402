@@ -1,0 +1,462 @@
+#encabezado{
+    background:pink; 
+}
+#barra{
+    border-color: pink;
+    background: silver;
+    width: 20%;
+    float: left;
+}
+#contenido{
+    background: gainsboro;
+    width: 80%;
+    float: left;
+}
+#pie{
+    background: whitesmoke;
+}
+#di{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#im1{
+    width: 600px;
+    height: 300px;
+}
+#titulocontenido{
+    text-align: center;
+    font-family: monospace;
+    border-style: double;
+    border-color: darkgray;
+    font-size: xx-large; 
+}
+#navegacion{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    background-color: gainsboro;
+    width: 100%;
+}
+#navegacion li a{
+    border: solid;
+    border-radius: 100px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: silver;
+}
+#navegacion > li{
+    display: inline-block;
+    margin-left: 100px;
+    width: 15%;
+}
+#navegacion li a:hover{
+    background-color: pink;
+
+}
+#navegacion li ul{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 15%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-color: dimgray;
+}
+#ic1{
+    font-size: 50px;
+}
+#bt2{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    float: bottom;
+    border: none;
+    background-color: pink;
+    color: hotpink;
+}
+#ic2{
+    font-size: 50px;
+}
+#bt3{
+    margin-bottom: 10px;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    float: bottom;
+    border: none;
+    background-color: pink;
+    color: dimgray;
+}
+#ic3{
+    font-size: 50px;
+}
+#titulob
+{
+    font-family: initial;
+    text-align: center;
+}
+#barra_nav{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    width: 100%;
+}
+#barra_nav li a{
+    border: solid;
+    border-radius: 100px;
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: pink;
+    border-color: hotpink;
+}
+#barra_nav > li{
+    margin-left: 55px;
+    width: 50%;
+    display: inline-block;
+    margin-top: 30px;
+}
+#barra_nav li a:hover{
+    background-color: hotpink;
+}
+#barra_nav li ul{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 15%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-color: hotpink;
+}
+#tituloABRIGO{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+.forbo{
+    margin-left: 25px;
+}
+#tituloDEP{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#tituloHOM{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#tituloMUJ{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#tituloZAP{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#tituloTODO{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#tituloCOMPRAS{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#tituloNOT{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#leyendashop{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#leyendaRE{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+#leyendaPRO{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+    border-style: double;
+    border-color: darkgray;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    transition: all 1s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background-color: lightpink;
+    transition: all 1s ease; 
+    position: relative;
+}
+.contenedor header{
+    padding: 10px;
+    background-color: pink;
+    text-align: center;
+    font-family: serif;
+    
+}
+.contenedor label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: darkgray;
+    font-size: 15px;
+    cursor: pointer;
+}
+.contenedor label:hover{
+    color: black;
+}
+#btn-modal{
+    display: none;
+}
+.lbl-modal{
+    margin-bottom: 10px;
+    margin-left: 800px;
+    margin-right: 10px;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    float: bottom;
+    border: none;
+    background-color: pink;
+    color: dimgray;
+}
+#buttoncolor{
+    margin-bottom: 5px;
+    border-radius: 50px;
+    background-color: hotpink;
+    color: white;
+    border-color: hotpink;
+}
+#buttoncolor2{
+    margin-bottom: 5px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+#abri1{
+     width: 200px;
+    height: 350px;
+    padding: 10px;
+}
+#abri2{
+    width: 230px;
+    height: 330px;
+    padding: 10px;
+}
+#abri3{
+    width: 235px;
+    height: 350px;
+    padding: 10px;
+}
+#abri4{
+    width: 235px;
+    height: 350px;
+    padding: 10px;
+}
+#abri5{
+    width: 235px;
+    height: 350px;
+    padding: 10px;
+}
+#abri6{
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+}
+#abri7{
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+#depor1{
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+}
+#depor2{
+ width: 300px;
+ height: 400px;
+ padding: 10px;
+}
+#depor3{
+ width: 400px;
+ height: 400px;
+ padding: 10px;
+}
+#depor4{
+   width: 320px;
+ height: 450px;
+ padding: 10px; 
+}
+#depor5{
+    width: 470px;
+ height: 400px;
+ padding: 10px; 
+}
+#depor6{
+    width: 300px;
+ height: 400px;
+ padding: 10px;
+}
+#hom1{
+    width: 380px;
+ height: 400px;
+ padding: 10px;
+}
+#hom2{
+    width: 330px;
+ height: 420px;
+ padding: 10px;
+}
+#hom3{
+    width: 260px;
+ height: 400px;
+ padding: 10px;
+}
+#hom4{
+    width: 260px;
+ height: 400px;
+ padding: 10px;
+}
+#hom5{
+    width: 240px;
+ height: 410px;
+ padding: 10px;
+}
+#hom6{
+    width: 320px;
+ height: 410px;
+ padding: 10px;
+}
+#muj1{
+    width: 280px;
+ height: 410px;
+ padding: 10px;
+}
+#muj2{
+    width: 280px;
+ height: 410px;
+ padding: 10px;
+}
+#muj3{
+    width: 300px;
+ height: 410px;
+ padding: 10px;
+}
+#muj4{
+    width: 270px;
+ height: 410px;
+ padding: 10px;
+}
+#muj5{
+    width: 280px;
+ height: 410px;
+ padding: 10px;
+}
+#muj6{
+    width: 280px;
+ height: 410px;
+ padding: 10px;
+}
+#zap1{
+    width: 280px;
+ height: 410px;
+ padding: 10px;
+}
+#zap2{
+    width: 280px;
+ height: 410px;
+ padding: 10px;
+}
+#zap3{
+    width: 300px;
+ height: 410px;
+ padding: 10px;
+}
+#zap4{
+    width: 400px;
+ height: 410px;
+ padding: 10px;
+}
+#zap5{
+    width: 400px;
+ height: 410px;
+ padding: 10px;
+}
+#zap6{
+    width: 350px;
+ height: 400px;
+ padding: 10px;
+}
+#carrito{
+    width: 20px;
+    height: 20px;
+    color: darkgray;
+    background-color: gainsboro;
+}
